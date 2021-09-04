@@ -19,7 +19,7 @@ end)
 
 RegisterCommand("k", function(source, args, raw) --change command here
     local player = GetPlayerPed( -1 )
-    local text = "Overgiver sig"
+    local text = "Overgiver sig" --3dme    text der kommer når man skriver /k ;)
     if ( DoesEntityExist( player ) and not IsEntityDead( player )) then
         loadAnimDict( "random@arrests" )
         loadAnimDict( "random@arrests@busted" )
